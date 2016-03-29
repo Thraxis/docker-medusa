@@ -1,6 +1,6 @@
 #!/bin/bash
 
-[[ ! -d /app/sickrage/.git ]] && (git clone -q https://github.com/SickRage/SickRage.git /app/sickrage && \
+[[ ! -d /app/sickrage/.git ]] && (git clone -q https://github.com/Pymedusa/SickRage.git /app/sickrage && \
 chown -R abc:abc /app /config)
 
 # opt out for autoupdates
