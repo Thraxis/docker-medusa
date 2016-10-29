@@ -2,7 +2,7 @@
 
 # install app
 [[ ! -d /app/sickrage/.git ]] && \
-	git clone https://github.com/Pymedusa/SickRage.git /app/sickrage
+	git clone -b develop https://github.com/Pymedusa/SickRage.git /app/sickrage
 
 # permissions
 chown -R abc:abc \
