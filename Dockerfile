@@ -22,7 +22,8 @@ RUN \
 	libtool \
 	make \
 	ncurses-dev \
-	openssl-dev && \
+	openssl-dev \
+	py-crypto && \
 
 # compile mediainfo packages
  curl -o \
