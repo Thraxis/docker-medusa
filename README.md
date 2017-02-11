@@ -1,9 +1,9 @@
 [![Thraxis|Docker](https://raw.githubusercontent.com/thraxis/docker-templates/master/thraxis/img/thraxis-docker-medium.png)][templateurl]
 [templateurl]: https://github.com/Thraxis/docker-templates
 
--# thraxis/docker-medusa
- -[![](https://images.microbadger.com/badges/version/thraxis/docker-medusa.svg)](https://microbadger.com/images/thraxis/docker-medusa "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/thraxis/docker-medusa.svg)](https://microbadger.com/images/thraxis/docker-medusa "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/thraxis/docker-medusa.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/Thraxis/docker-medusa.svg)][hub]
- -[hub]: https://hub.docker.com/r/thraxis/docker-medusa/
+# thraxis/docker-medusa
+[![](https://images.microbadger.com/badges/version/thraxis/docker-medusa.svg)](https://microbadger.com/images/thraxis/docker-medusa "Get your own version badge on microbadger.com")[![](https://images.microbadger.com/badges/image/thraxis/docker-medusa.svg)](https://microbadger.com/images/thraxis/docker-medusa "Get your own image badge on microbadger.com")[![Docker Pulls](https://img.shields.io/docker/pulls/thraxis/docker-medusa.svg)][hub][![Docker Stars](https://img.shields.io/docker/stars/Thraxis/docker-medusa.svg)][hub]
+[hub]: https://hub.docker.com/r/thraxis/docker-medusa/
 
 [Medusa][medusaurl], automatic Video Library Manager for TV Shows. It watches for new episodes of your favorite shows, and when they are posted it does its magic.
 
