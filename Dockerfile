@@ -1,29 +1,32 @@
-FROM lsiobase/alpine.python
-MAINTAINER sparklyballs
+FROM lsiobase/alpine.python:3.5
+MAINTAINER Thraxis
 
 # set version label
 ARG BUILD_DATE
 ARG VERSION
-LABEL build_version="Linuxserver.io version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+LABEL build_version="Thraxis' version:- ${VERSION} Build-date:- ${BUILD_DATE}"
+
+ENV PYTHONIOENCODING="UTF-8"
 
 # package version
 ARG MEDIAINF_VER="0.7.90"
 
 # install build packages
 RUN \
+ apk add --no-cache \
+	 py-crypto && \
  apk add --no-cache --virtual=build-dependencies \
-	autoconf \
-	automake \
-	cppunit-dev \
-	curl-dev \
-	file \
-	g++ \
-	gcc \
-	libtool \
-	make \
-	ncurses-dev \
-	openssl-dev \
-	py-crypto && \
+     autoconf \
+     automake \
+     cppunit-dev \
+     curl-dev \
+     file \
+     g++ \
+     gcc \
+     libressl-dev \
+     libtool \
+     make \
+     ncurses-dev && \
 
 # compile mediainfo packages
  curl -o \
