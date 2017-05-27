@@ -74,7 +74,7 @@ Web interface is at `<your ip>:8081` , set paths for downloads, tv-shows to matc
 `docker inspect -f '{{ index .Config.Labels "build_version" }}' thraxis/medusa`
 
 ## Versions
-
++ **26-05-17:** Rebased Alpine 3.6
 + **10-02-17:** Rebased to alpine linux 3.5
 + **14-10-16:** Add version layer information.
 + **30.09.16:** Fix umask.
