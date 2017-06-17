@@ -14,6 +14,12 @@ ARG MEDIAINF_VER="0.7.90"
 # install build packages
 RUN \
  apk add --no-cache \
+   ffmpeg \
+   ffmpeg-libs \
+   ffmpeg-dev \
+   sdl2 \
+   libva \
+   musl \
 	 py-crypto && \
  apk add --no-cache --virtual=build-dependencies \
      autoconf \
