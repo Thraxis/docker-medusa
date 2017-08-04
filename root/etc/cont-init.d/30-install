@@ -2,7 +2,7 @@
 
 # install app
 [[ ! -d /app/medusa/.git ]] && \
-	git clone -b develop https://github.com/Thraxis/pymedusa /app/medusa
+	git clone -b develop https://github.com/pymedusa/Medusa /app/medusa
 
 # permissions
 chown -R abc:abc \
